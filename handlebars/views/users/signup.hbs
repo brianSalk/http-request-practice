@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>icon}}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>sign-up page</h1>
+    <!-- how the hell do I access this data again?  I am conviced that this does not actually put the data in the request body. -->
+<form action="/users/signup" method="post">
+    <label for="userName">First name:</label>
+    <input type="application/json" id="userName" name="userNmae">
+    <label for="password">Last name:</label>
+    <input type="application/json" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

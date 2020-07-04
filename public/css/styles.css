@@ -1,0 +1,16 @@
+body {
+    background-color: darkmagenta;
+}
+
+#title {
+    color: red;
+}
+
+#banner {
+    background-color: darkolivegreen;
+    height: 50px;
+}
+#each-tab {
+    padding-right: 300px;
+    
+}
